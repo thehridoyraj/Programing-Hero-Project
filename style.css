@@ -1,3 +1,65 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+.Halfdiv{
+    width: 50%;
+    padding-left: 5%;
+}
+.Halfdiv img{
+    width: 90%;
+}
+.blue{
+    color: rgb(37, 59, 255);
+}
+.flex{
+    display: flex;
+    margin-bottom: 150px;
+}
+.linkbutton{
+    text-decoration: none;
+    background-image: linear-gradient( blue, rgb(81, 229, 255));
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+}
+.banner{
+    background-image: url(image/top-banner.png);
+    background-repeat:no-repeat ;
+}
+.drembig{
+
+}
+.box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px ;
+}
+.experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat ;
+    background-position: left;
+}
+#webdev1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(0, 183, 255));
+    border-image-slice:1 ;
+    
+}
+#webdev2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(183, 0, 255),rgb(255, 0, 234));
+    border-image-slice:1 ;
+    
+}
+footer p{
+    text-align: center;
 }
